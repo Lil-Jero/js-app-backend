@@ -11,7 +11,7 @@ const app = express();
 
 // Authorisation cors
 app.use(cors({
-    origin: 'https://app-js.herokuapp.com/',
+    origin: 'http://localhost:3000',
     credentials: true,
     optionsSuccessStatus: 200,
 }))
