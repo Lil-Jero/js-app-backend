@@ -11,7 +11,7 @@ const app = express();
 
 // Authorisation cors
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://jeromevoipierre.fr',
     credentials: true,
     optionsSuccessStatus: 200,
 }))
